@@ -1,0 +1,60 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "hours": "Monday to Saturday, 9am to 7pm",
+    "closed_on": "Sundays and public holidays"
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "starting_price": "£200",
+      "description": "Anti-wrinkle injections for forehead lines, frown lines, and crow's feet.",
+      "duration": "Approximately 30 minutes",
+      "downtime": "Minimal. Mild redness may occur for a few hours."
+    },
+    {
+      "name": "Dermal Fillers",
+      "starting_price": "£250",
+      "description": "Lip fillers, cheek fillers, and nasolabial fold treatment using hyaluronic acid.",
+      "duration": "Approximately 45 minutes",
+      "downtime": "Mild swelling for 24-48 hours is normal."
+    },
+    {
+      "name": "Consultation",
+      "starting_price": "Free",
+      "description": "A free initial consultation to discuss your goals and recommend the best treatment.",
+      "duration": "Approximately 20 minutes",
+      "downtime": "None"
+    }
+  ],
+  "booking": {
+    "methods": ["WhatsApp", "clinic website"],
+    "cancellation_policy": "24-hour notice required for cancellations or rescheduling.",
+    "deposit_required": false
+  },
+  "escalation_rules": [
+    "Customer has a complaint or expresses dissatisfaction",
+    "Customer asks a medical question (e.g., contraindications, allergies, medications)",
+    "Customer requests a price negotiation or discount",
+    "More than 2 questions cannot be answered from the SOP",
+    "Customer explicitly asks to speak to a human or manager"
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book via WhatsApp or through our website. We recommend booking a free consultation first."
+    },
+    {
+      "question": "What is the cancellation policy?",
+      "answer": "We require at least 24 hours notice to cancel or reschedule an appointment."
+    },
+    {
+      "question": "Are consultations free?",
+      "answer": "Yes, initial consultations are completely free of charge."
+    },
+    {
+      "question": "What are your opening hours?",
+      "answer": "We are open Monday to Saturday, 9am to 7pm. We are closed on Sundays and public holidays."
+    }
+  ]
+}
